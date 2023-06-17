@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Signika+Negative&display=swap');
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1039.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+body {
+    font-family: Barlow+Condensed;
+    margin: 0px;
+    background-color: #ECF9FF;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 40px;
+    color: #6D9886;
+    font-weight: 600;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 32px;
+    color: #6D9886;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.cabecera img {
+    margin:0px 0px;
+    width: 1348px;
+    height: 200px;
+
+}
+.back-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 46px;
+    width: 100%;
+    background: #116A7B;
+    border-radius: 50px;
+    z-index: 2;
+    transition: 0.3s;
+}
+.menu{
+    max-width: 250px;
+    width: 100%;
+    position: absolute;
+    margin-left: 35%
+}
+.item{
+    height: 46px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    font-size: 18px;
+    line-height: 46px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+}
+
+.cuerpo {
+    max-width: 1100px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenido {
+font-family: 'Nunito', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+float: left;
+width: 65%;
+}
+
+div.contenido img {
+width: 50%;
+}
+
+.barra-lateral {
+
+    padding-top: 40px;
+    float: right;
+    width: 30%;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    color: #A9907E;
+    text-align: center;
+    border-bottom: 1px solid #A9907E;
+}
+
+
+
+.text-justify {
+    text-align: justify;
+} 
+
+.pie {
+    clear: both;
+    color: white;
+    background-color: #88A47C;
+    min-height: 100px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}

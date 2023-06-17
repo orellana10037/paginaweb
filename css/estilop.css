@@ -1,0 +1,347 @@
+/*estilos body*/
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1038.cur), auto !important;} /* End https://www.cursors-4u.com */
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #E74646;
+    background: #FFF3E2;
+    font-family: 'PT Sans', sans-serif;
+
+    }
+    
+    /*estilo de las imágenes de la página*/
+    img{
+    max-width: 80%;
+    height: auto;
+    border-radius: 3px;
+    margin-left: 10%;
+    }
+        
+    
+    /*estilo etiqueta a*/
+    a{
+    text-decoration: none;
+    color: inherit;
+    }
+    
+    /*estilo de la sección*/
+    .section{
+    clear: both;
+    padding: 0;
+    margin: 0;
+    }
+    
+    /*estilo de la sección*/
+    .col{
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    }
+    
+    .publicaciones{
+    width: 66.1%;
+    }
+    
+    .lateral{
+    width: 32.2%;
+    }
+    
+    /*Estilo del Encabezado*/
+    header{
+    max-width: 100%;
+    background:#FFE5CA;;
+    padding: 20px;
+    }
+    
+    /*Estilo de la navegación*/
+    nav{
+    width: 100%;
+    margin-bottom: 1em;
+    background:#FA9884;;
+    }
+    
+    /*Estilo del logo o imagen png en el encabezado*/
+    .logo{
+    width: 220px;
+    display: block;
+    margin: auto;
+    }
+    /*Estilo del texto del menú*/
+    ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-align: center;
+    transition: max-height 0.5s;
+    }
+    /*Estilo del texto del menú alineado*/
+    .nav-item{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.4em;
+    }
+    /*Efecto al pasar el puntero sobre el texto del menú*/
+    .nav-item:hover{
+    background: #E9A178;
+    cursor: pointer;
+    }
+    /*Estilo del menú bar*/
+    .menu-bar{
+    width: 100%;
+    box-sizing: border-box;
+    background: #FF6969;
+    text-align: left;
+    padding: 15px 20px;
+    color: white;
+    font-size: 1.4em;
+    cursor: pointer;
+    display: none;
+    }
+    
+    /*Estilo del logo o imagen png en el encabezado*/
+    .logo{
+    width: 220px;
+    display: block;
+    margin: auto;
+    }
+    
+    /*Estilo del texto del menú*/
+    ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-align: center;
+    transition: max-height 0.5s;
+    }
+    /*Estilo del texto del menú alineado*/
+    .nav-item{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.4em;
+    }
+    
+    /*Efecto al pasar el puntero sobre el texto del menú*/
+    .nav-item:hover{
+    background: #E9A178;
+    cursor: pointer;
+    }
+    
+    /*Estilo del menú bar*/
+    .menu-bar{
+    width: 100%;
+    box-sizing: border-box;
+    background: #E8A9A9;
+    text-align: left;
+    padding: 15px 20px;
+    color: white;
+    font-size: 1.4em;
+    cursor: pointer;
+    display: none;
+    }
+    
+    /*Estilo del menú (forma de hamburguesa)*/
+    .hamburger-icon{
+    float: right;
+    clear: both;
+    margin-top: -5px;
+    font-size: 1.4em;
+    }
+    /*Estilos del Contenedor de las Publicaciones*/
+    .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    /*Estilo donde van los párrafos principales*/
+    .blog-post{
+    background: rgb(255, 255, 255);
+    margin: 0 auto 2em auto;
+    padding: 35px 30px;
+    }
+    /*Estilo de la barra lateral*/
+    .side-post{
+    background: rgb(255, 255, 255);
+    margin: 0 auto 1.5em auto;
+    width: 20em;
+    padding: 20px;
+    }
+    
+    /*pequeña linea vertical (derecha en el párrafo de las Publicaciones)*/
+    .blog-content{
+    font-size: 1em;
+    border-left: 5px solid #e8810c;
+    padding-left: 15px;
+    }
+    
+    /*Lado de los contenidos*/
+    .side-content{
+    font-size: .9em;
+    margin-top: 8px;
+    margin-bottom: 0;
+    }
+    
+    /*Titulo publicaciones*/
+    .blog-title{
+    font-weight: 500px;
+    font-size: 2.5em;
+    margin-top: 5px;
+    }
+    /*Fecha publicaciones*/
+    .date{
+    font-size: 1em;
+    font-weight: 400;
+    color: #9c9c9c;
+    margin-top: -10px;
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+    }
+    /*Estilo del Botón en la barra lateral*/
+    .button{
+    display: block;
+    padding: 15px 20px;
+    margin-top: .8em;
+    background: #FA9884;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    border-radius: 3px;
+    transition: all .4s ease-in;
+    }
+    /*Efecto del botón al pasar el puntero*/
+    .button:hover{
+    background: #E9A178;
+    }
+    /*estilo del footer*/
+    footer{
+    width: 100%;
+    float: right;
+    background: #FA9884;
+    color: rgb(253, 245, 245);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    box-sizing: border-box;
+    }
+    
+    .blog-title{
+    font-weight: 500px;
+    font-size: 2.5em;
+    margin-top: 5px;
+    }
+    
+    /*Fecha publicaciones*/
+    .date{
+    font-size: 1em;
+    font-weight: 400;
+    color: #9c9c9c;
+    margin-top: -10px;
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+    }
+    
+    /*Estilo del Botón en la barra lateral*/
+    .button{
+    display: block;
+    padding: 15px 20px;
+    margin-top: .8em;
+    background: #FA9884;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    border-radius: 3px;
+    transition: all .4s ease-in;
+    }
+    
+    /*Efecto del botón al pasar el puntero*/
+    .button:hover{
+    background: #E9A178;
+    }
+    /*estilo del footer*/
+    footer{
+    width: 100%;
+    float: right;
+    background: #FA9884;
+    color: rgb(253, 245, 245);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    box-sizing: border-box;
+    }
+        
+    footer p{
+        margin: auto;
+        }
+    /* Media para hacer responsive la página web*/
+    /* Vista adaptable a dispositivos móviles*/
+    /* @900px */
+    @media screen and (max-width: 56.25em){
+    .col{
+    margin: 1% 0 1% 0%;
+    }
+    .publicaciones,
+    .barralateral
+    {
+    width: 100%;
+    }
+    .side-post{
+    width: 42%;
+    float: left;
+    margin: -2% 0 1% 1.6%;
+    }
+    }
+    
+    /* @685px */
+    @media screen and (max-width: 42.813em){
+    .side-post{
+    width: auto;
+    padding: 15px;
+    margin: -2% auto 8% auto;
+    }
+    .blog-title{
+    font-size: 1.95em;
+    }
+    .date {
+    font-size: .9em;
+    }
+    }
+    /* @480px */
+    @media screen and (max-width: 30em){
+    nav ul{
+    max-height: 0;
+    }
+    .reveal{
+    max-height: 19em;
+    }
+    nav ul .nav-item{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    }
+    .menu-bar{
+    display: block;
+    }
+    }
+    /* @380px */
+    @media screen and (max-width: 23.75em){
+    .blog-content,
+    .post-link{
+    font-size: .9em;
+    }
+    .side-content{
+    font-size: .8em;
+    }
+    .button{
+    padding: 10px 15px;
+    }
+    .nav-item{
+    font-size: 1.2em;
+    }
+    }
+    
