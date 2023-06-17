@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 16px;
+    }
+    .contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+    }
+    /* Sobre usted */
+    .sobre-usted {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #A75D5D;
+    }
+    .parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: #810955;
+    font-size: 21px;
+    }
+    .acerca-de .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 135px;
+    font-weight: 300;
+    border: 1px solid rgba(24, 16, 16, 0.815);
+    color: #DB005B;
+    font-size: 20px;
+    font-family:'Signika Negative', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 24px;
+    }
+    .galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    }
+    
+    .imagenes {
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    }
+    .imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    .encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFF9D7;
+    }
+    .encima h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #A75D5D;
+    }
+    .encima div {
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background: #DB005B;
+    margin: auto;
+    }
+    .cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #810955;
+    }
+    .card {
+    margin: 20px 0;
+    width: 30%;
+    height: 290px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 #FFE569;
+    }
+    .cards img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+    }
+    .fondo {
+    height: 900px;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFpc2FqZSUyMGRlJTIwY29sb3Jlc3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+    }
+    .objetivo,
+    .subtitulo-objetivo {
+    color: #4C3A51;
+    text-align: center;
+    }
+    .objetivo {
+    font-size: 56px;
+    margin-top: 48px;
+    }
+    .subtitulo-objetivo {
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 64px;
+    }
+
+    footer p{
+        margin: auto;
+        }
+    /* Media para hacer responsive la página web*/
+    /* Vista adaptable a dispositivos móviles*/
+    /* @900px */
+    @media screen and (max-width: 56.25em){}
+    .col{
+    margin: 1% 0 1% 0%;
+    }
